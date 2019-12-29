@@ -32,7 +32,7 @@
 			</array>
 			<key>metadata</key>
 			<dict>
-				<key>bundle-identifier</key>
+				<key>com.app.makeupguide</key>
 				<string>com.app.makeupguide</string>
 				<key>bundle-version</key>
 				<string>1.0.0</string>
