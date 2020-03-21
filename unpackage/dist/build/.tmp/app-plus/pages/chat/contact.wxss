@@ -1,0 +1,45 @@
+
+.page{
+    /*距离顶部范围应该在118-122范围内*/
+    padding-bottom: 118rpx;
+}
+.pBox{
+ 	position: fixed;
+ 	top: 90px;
+ 	right: 0px;
+ 	background-color: #fff;
+ 	padding: 5px;
+}
+
+.pBox-item{
+  
+ 	text-align: center;
+ 	width: 18px;
+ 	height: 18px;
+ 	line-height: 18px;
+ 	font-size: 12px;
+}
+.pBox-active{
+ 	background-color: #eee;
+ 	border-radius: 20px;
+}
+.contact-dot {
+	position: relative;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	-webkit-transform-origin: 0 center;
+	transform-origin: 0 center;
+	top: 8px;
+	right: 12px;
+	height: 12px;
+	width: 12px;
+	border-radius: 100%;
+	background: #ed4014;
+	box-shadow: 0 0 0 1px #fff;
+	display: inline-block;
+}
+.contact-dot-box{
+	width: 0;
+	height: 0;
+}
+

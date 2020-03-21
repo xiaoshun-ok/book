@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view><bottom-nav vue-id="1" list="{{bottomNavList}}" data-event-opts="{{[['^onClick',[['changeNav']]]]}}" bind:onClick="__e" bind:__l="__l"></bottom-nav></view>

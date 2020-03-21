@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/chat/contact",
+    "pages/chat/group-chat",
+    "pages/chat/match",
+    "pages/chat/record",
+    "pages/chat/request-relation",
+    "pages/login/findpwd",
+    "pages/login/index",
+    "pages/user/index",
+    "pages/user/info",
+    "pages/user/register",
+    "pages/treehole/square"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "呆小站",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "fa-icon": "/components/fa-icon/fa-icon",
+    "bottom-nav": "/components/botton-nav/botton-nav"
+  }
+}

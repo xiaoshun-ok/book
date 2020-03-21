@@ -1,0 +1,146 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* base */
+/* .flex{
+ 	display: flex!important;
+ 	flex-direction: row!important;
+ }
+ .flex-col{
+	display: flex!important;
+	flex-direction: column!important;
+ }
+ .flex-1{
+ 	flex: 1;
+ }
+.flex-wrap{
+	flex-wrap: wrap;
+} */
+/***定义了 flex 容器中 flex 成员项在纵轴方向上如何排列以处理空白部分***/
+/* .flex-ai-stretch{ align-items: stretch;}
+ .flex-ai-start{ align-items: flex-start;}
+ .flex-ai-end{ align-items: flex-end;}
+ .flex-ai-center{ align-items: center;} */
+/***定义了 flex 容器中 flex 成员项在主轴方向上如何排列以处理空白部分***/
+/* .flex-jc-start{justify-content: flex-start;}
+ .flex-jc-end{justify-content: flex-end;}
+ .flex-jc-center{justify-content: center;}
+ .flex-jc-bettwen{justify-content: space-between;}
+ .flex-center{text-align: center;justify-content:center;align-items: center;} */
+

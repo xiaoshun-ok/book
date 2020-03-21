@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "大厅",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "fa-icon": "/components/fa-icon/fa-icon",
+    "bottom-nav": "/components/botton-nav/botton-nav"
+  }
+}

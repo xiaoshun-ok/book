@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "聊天",
+  "usingComponents": {
+    "chat-message": "/components/chat-message/chat-message",
+    "fa-icon": "/components/fa-icon/fa-icon",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
