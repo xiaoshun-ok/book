@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "我的",
-  "usingComponents": {
-    "bottom-nav": "/components/botton-nav/botton-nav"
-  }
-}

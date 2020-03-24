@@ -45,7 +45,7 @@
           "name": "index",
           "query": "",
           "id": 2,
-          "pathName": "pages/index/index"
+          "pathName": "pages/treehole/square"
         },
         {
           "name": "login",

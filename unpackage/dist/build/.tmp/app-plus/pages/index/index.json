@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "bottom-nav": "/components/botton-nav/botton-nav"
+    "bottom-nav": "/components/botton-nav/botton-nav",
+    "con-list": "/pages/con_list/con_list"
   }
 }

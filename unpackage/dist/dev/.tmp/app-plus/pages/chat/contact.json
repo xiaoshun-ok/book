@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "好友",
-  "usingComponents": {
-    "fa-icon": "/components/fa-icon/fa-icon",
-    "bottom-nav": "/components/botton-nav/botton-nav",
-    "uni-swipe-action": "/components/uni-swipe-action/uni-swipe-action",
-    "nav-tab": "/components/nav-tab/nav-tab"
-  }
-}

@@ -1,1 +1,0 @@
-<view><view><text>{{itemlist.signature}}</text><image src="{{'https://img.soulapp.cn/'+itemlist.userBackgroundUrl}}"></image></view></view>

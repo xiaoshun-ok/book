@@ -1,8 +1,8 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/main"],[
 /* 0 */
-/*!********************************************************************!*\
-  !*** C:/Users/Administrator/Documents/HBuilderProjects/工具/main.js ***!
-  \********************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/book/main.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -27,7 +27,7 @@ var _store = _interopRequireDefault(__webpack_require__(/*! ./store */ 19));func
 _vue.default.config.productionTip = false;_App.default.mpType = 'app'; // APP时用别人的websocket
 //VUEX加载
 _vue.default.prototype.$store = _store.default; //自定义全局组件
-var faIcon = function faIcon() {return __webpack_require__.e(/*! import() | components/fa-icon/fa-icon */ "components/fa-icon/fa-icon").then(__webpack_require__.bind(null, /*! ./components/fa-icon/fa-icon.vue */ 121));};_vue.default.component('fa-icon', faIcon);var bottomNav = function bottomNav() {return __webpack_require__.e(/*! import() | components/botton-nav/botton-nav */ "components/botton-nav/botton-nav").then(__webpack_require__.bind(null, /*! ./components/botton-nav/botton-nav.vue */ 128));};
+var faIcon = function faIcon() {return __webpack_require__.e(/*! import() | components/fa-icon/fa-icon */ "components/fa-icon/fa-icon").then(__webpack_require__.bind(null, /*! ./components/fa-icon/fa-icon.vue */ 139));};_vue.default.component('fa-icon', faIcon);var bottomNav = function bottomNav() {return __webpack_require__.e(/*! import() | components/botton-nav/botton-nav */ "components/botton-nav/botton-nav").then(__webpack_require__.bind(null, /*! ./components/botton-nav/botton-nav.vue */ 146));};
 
 _vue.default.component('bottom-nav', bottomNav);
 
@@ -49,9 +49,9 @@ createApp(app).$mount();
 /* 7 */,
 /* 8 */,
 /* 9 */
-/*!********************************************************************!*\
-  !*** C:/Users/Administrator/Documents/HBuilderProjects/工具/App.vue ***!
-  \********************************************************************/
+/*!**********************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/book/App.vue ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -85,14 +85,14 @@ var component = Object(_Desktop_HBuilderX_plugins_uniapp_cli_node_modules_dcloud
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "Documents/HBuilderProjects/工具/App.vue"
+component.options.__file = "Documents/HBuilderProjects/book/App.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 /* 10 */
-/*!*********************************************************************************************!*\
-  !*** C:/Users/Administrator/Documents/HBuilderProjects/工具/App.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/book/App.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -105,9 +105,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 11 */
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Documents/HBuilderProjects/工具/App.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Documents/HBuilderProjects/book/App.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -119,22 +119,6 @@ var _chat_record = _interopRequireDefault(__webpack_require__(/*! @/common/mixin
   mixins: [_app_init_chat.default, _chat_record.default],
   onLaunch: function onLaunch() {
     // console.log('App Launch')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   },
   onShow: function onShow() {
     //console.log('App show')
@@ -153,9 +137,9 @@ var _chat_record = _interopRequireDefault(__webpack_require__(/*! @/common/mixin
 /* 14 */,
 /* 15 */,
 /* 16 */
-/*!******************************************************************************************************!*\
-  !*** C:/Users/Administrator/Documents/HBuilderProjects/工具/App.vue?vue&type=style&index=0&lang=scss& ***!
-  \******************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Documents/HBuilderProjects/book/App.vue?vue&type=style&index=0&lang=scss& ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -168,9 +152,9 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 /* 17 */
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-1!./node_modules/css-loader??ref--8-oneOf-1-2!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/lib/loader.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Documents/HBuilderProjects/工具/App.vue?vue&type=style&index=0&lang=scss& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-1!./node_modules/css-loader??ref--8-oneOf-1-2!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/lib/loader.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!C:/Users/Administrator/Documents/HBuilderProjects/book/App.vue?vue&type=style&index=0&lang=scss& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

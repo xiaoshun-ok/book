@@ -12,12 +12,15 @@
     "pages/user/index",
     "pages/user/info",
     "pages/user/register",
-    "pages/treehole/square"
+    "pages/treehole/square",
+    "pages/soul/tags",
+    "pages/soul/user",
+    "pages/soul/detail"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "呆小站",
+    "navigationBarTitleText": "顺小站",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },

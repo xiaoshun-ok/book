@@ -1,2 +1,0 @@
-setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"page { padding-bottom: ",[0,118],"; }\n",],undefined,{path:"./pages/chat/chat.wxss"})();
-document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/chat/chat.wxml') } }));
