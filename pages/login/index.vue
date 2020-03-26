@@ -1,22 +1,23 @@
 <template>
 	<view class="loginBg">
-		<view class="h30"></view>
+	<!-- 	<view class="h30"></view>
 		<view class="flex-center ">
 			<view @click="goHome()" class="flex-center">
 				<image src="/static/logo.png" class="wh-60" style='margin: 0 auto;'></image>
 			</view>
-		</view>
+		</view> -->
+		<div class="welcome"><img src="http://q6pi1gcft.bkt.clouddn.com/user/2020032610164528599.png"></div>
 		<view autocomplete="off" class="loginBox"  id="login-form" >
 			<form @submit="formSubmit" >
-				<view class="flexIcon flex">
+				<view class="flexIcon flex login-inp">
 					<view class=" flexIcon-icon"><fa-icon type='user' size='18' color="#FFFFFF"></fa-icon></view>
-					<input type="text"  placeholder-class="cl-white" class="flexIcon-text"  name="username" placeholder="请输帐号" />
+					<input type="text"  class="flexIcon-text"  name="username" placeholder="请输帐号" />
 				</view>
-				<view class="flexIcon flex"> 
+				<view class="flexIcon flex login-inp"> 
 					<view class="flexIcon-icon"><fa-icon type='briefcase' size='18' color="#FFFFFF"></fa-icon></view>
-					<input type="password" placeholder-class="cl-white" class="flexIcon-text"  name="password" placeholder="请输入登录密码" />
+					<input type="password" class="flexIcon-text"  name="password" placeholder="请输入登录密码" />
 				</view>
-				<button type="primary" formType="submit"  class="btn-row-submit" >登陆</button>
+				<button type="primary" formType="submit"  class="btn-row-submit login-inp" >登陆</button>
 			</form>
 			
 			<view class="flex mgb-20">
@@ -160,7 +161,28 @@
 	
 <style>
 
+.loginBg{
+	width: 100%;
+	height: 100%;
+	/* background: url(https://www.17sucai.com/preview/266121/2017-06-30/login/images/login-bg.png) no-repeat;
+	background-size: cover; */
+	        background: linear-gradient( #b3b3b3,#ffffff);
+	position: fixed;
+	/* z-index: -10; */
+}
+.btn-row-submit{
+	/* background: none!important; */
+	width: 81%;
+	background: linear-gradient( #4c4c4c,#5a5a5a);
+}
 
-
-
+.welcome{width: 65%;
+    margin: 25% auto 0;}
+.welcome img{width:100%;}
+.login-inp{margin:0 30px 15px 30px;border:1px solid #545454;border-radius:25px;}
+.login-inp label{width:4em;text-align:center;display:inline-block;color:#545454;}
+.login-inp input{line-height:40px;color:#545454;background-color:transparent;border:none;outline: none;}
+.login-inp a{display:block;width:100%;text-align:center;line-height:40px;color:#545454;font-size:16px;letter-spacing:5px;}
+.login-txt{text-align:center;color:#545454;}
+.login-txt a{color:#545454;padding:0 5px;}
 </style>

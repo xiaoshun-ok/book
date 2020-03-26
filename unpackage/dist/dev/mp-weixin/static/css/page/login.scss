@@ -29,7 +29,7 @@
 
 .flexIcon {
 	flex-direction: row;
-	background-color: #2e85d8;
+	// background-color: #2e85d8;
 	margin-bottom: 44upx;
 	border-radius: 44upx;
 	padding: 22upx 22upx;
@@ -43,7 +43,7 @@
 }
 
 .flexIcon-text {
-	color: #fff;
+	color: #3c3c3c;
 	border: 0;
 	flex: 1;
 	background:inherit;
@@ -61,11 +61,11 @@
 	border-radius: 44upx;
 }
 
-.loginBg {
-	background: linear-gradient( #29cee8,#619ad6);
-	position: absolute;
-	top: 0upx;
-	bottom: 0upx;
-	left: 0upx;
-	right: 0upx;
-}
+// .loginBg {
+// 	background: linear-gradient( #29cee8,#619ad6);
+// 	position: absolute;
+// 	top: 0upx;
+// 	bottom: 0upx;
+// 	left: 0upx;
+// 	right: 0upx;
+// }

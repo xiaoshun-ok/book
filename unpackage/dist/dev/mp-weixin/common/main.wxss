@@ -51,7 +51,6 @@
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
           flex-direction: row;
-  background-color: #2e85d8;
   margin-bottom: 44rpx;
   border-radius: 44rpx;
   padding: 22rpx 22rpx;
@@ -65,7 +64,7 @@
   color: #fff;
 }
 .flexIcon-text {
-  color: #fff;
+  color: #3c3c3c;
   border: 0;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -82,15 +81,6 @@
   margin-top: -330rpx;
   padding: 33rpx 22rpx;
   border-radius: 44rpx;
-}
-.loginBg {
-  background: -webkit-linear-gradient(#29cee8, #619ad6);
-  background: linear-gradient(#29cee8, #619ad6);
-  position: absolute;
-  top: 0rpx;
-  bottom: 0rpx;
-  left: 0rpx;
-  right: 0rpx;
 }
 page, page {
   margin: 0;
