@@ -2,8 +2,6 @@
   "navigationBarTitleText": "登录",
   "usingComponents": {
     "fa-icon": "/components/fa-icon/fa-icon",
-    "uni-popup": "/components/uni-popup/uni-popup",
-    "w-input": "/components/watch-login/watch-input",
-    "w-button": "/components/watch-login/watch-button"
+    "uni-popup": "/components/uni-popup/uni-popup"
   }
 }

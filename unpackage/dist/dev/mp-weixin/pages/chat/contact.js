@@ -97,7 +97,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   "fa-icon": () =>
-    __webpack_require__.e(/*! import() | components/fa-icon/fa-icon */ "components/fa-icon/fa-icon").then(__webpack_require__.bind(null, /*! @/components/fa-icon/fa-icon.vue */ 139))
+    __webpack_require__.e(/*! import() | components/fa-icon/fa-icon */ "components/fa-icon/fa-icon").then(__webpack_require__.bind(null, /*! @/components/fa-icon/fa-icon.vue */ 141))
 }
 var render = function() {
   var _vm = this
@@ -277,7 +277,7 @@ var _config = __webpack_require__(/*! @/common/config.js */ 14);function _intero
 //
 //
 //
-var uniSwipeAction = function uniSwipeAction() {return __webpack_require__.e(/*! import() | components/uni-swipe-action/uni-swipe-action */ "components/uni-swipe-action/uni-swipe-action").then(__webpack_require__.bind(null, /*! @/components/uni-swipe-action/uni-swipe-action.vue */ 171));};var navTab = function navTab() {return __webpack_require__.e(/*! import() | components/nav-tab/nav-tab */ "components/nav-tab/nav-tab").then(__webpack_require__.bind(null, /*! @/components/nav-tab/nav-tab.vue */ 178));};var _default = { mixins: [_bottomNav.default, _chat_init.default, _chat_send.default, _user.default], components: { uniSwipeAction: uniSwipeAction, navTab: navTab }, data: function data() {return { options: [{ text: '取消', style: { backgroundColor: '#007aff' } }, { text: '确认', style: { backgroundColor: '#dd524d' } }], tabTitle: ['好友', '群组'], currentTab: 0, toView: '', //回到顶部id
+var uniSwipeAction = function uniSwipeAction() {return __webpack_require__.e(/*! import() | components/uni-swipe-action/uni-swipe-action */ "components/uni-swipe-action/uni-swipe-action").then(__webpack_require__.bind(null, /*! @/components/uni-swipe-action/uni-swipe-action.vue */ 173));};var navTab = function navTab() {return __webpack_require__.e(/*! import() | components/nav-tab/nav-tab */ "components/nav-tab/nav-tab").then(__webpack_require__.bind(null, /*! @/components/nav-tab/nav-tab.vue */ 180));};var _default = { mixins: [_bottomNav.default, _chat_init.default, _chat_send.default, _user.default], components: { uniSwipeAction: uniSwipeAction, navTab: navTab }, data: function data() {return { options: [{ text: '取消', style: { backgroundColor: '#007aff' } }, { text: '确认', style: { backgroundColor: '#dd524d' } }], tabTitle: ['好友', '群组'], currentTab: 0, toView: '', //回到顶部id
       newRoomName: '测试房间' //新建房间名
     };}, computed: { //好友请求列表
     requestRelationList: function requestRelationList() {var arr = [];for (var key in this.$store.state.chat.requestRelationList) {arr.push(this.$store.state.chat.requestRelationList[key]);}return arr;}, // 好友列表

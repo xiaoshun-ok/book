@@ -97,11 +97,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components = {
   "chat-message": () =>
-    Promise.all(/*! import() | components/chat-message/chat-message */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/chat-message/chat-message")]).then(__webpack_require__.bind(null, /*! @/components/chat-message/chat-message.vue */ 158)),
+    Promise.all(/*! import() | components/chat-message/chat-message */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/chat-message/chat-message")]).then(__webpack_require__.bind(null, /*! @/components/chat-message/chat-message.vue */ 160)),
   "fa-icon": () =>
-    __webpack_require__.e(/*! import() | components/fa-icon/fa-icon */ "components/fa-icon/fa-icon").then(__webpack_require__.bind(null, /*! @/components/fa-icon/fa-icon.vue */ 139)),
+    __webpack_require__.e(/*! import() | components/fa-icon/fa-icon */ "components/fa-icon/fa-icon").then(__webpack_require__.bind(null, /*! @/components/fa-icon/fa-icon.vue */ 141)),
   "uni-popup": () =>
-    __webpack_require__.e(/*! import() | components/uni-popup/uni-popup */ "components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! @/components/uni-popup/uni-popup.vue */ 164))
+    __webpack_require__.e(/*! import() | components/uni-popup/uni-popup */ "components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! @/components/uni-popup/uni-popup.vue */ 166))
 }
 var render = function() {
   var _vm = this
@@ -276,7 +276,7 @@ __webpack_require__.r(__webpack_exports__);
 var _chat_send = _interopRequireDefault(__webpack_require__(/*! @/common/mixins/chat/chat_send.js */ 38));
 var _chat_init = _interopRequireDefault(__webpack_require__(/*! @/common/mixins/chat/chat_init.js */ 39));
 var _chat_voice = _interopRequireDefault(__webpack_require__(/*! @/common/mixins/chat/chat_voice.js */ 40));
-var _emoji = __webpack_require__(/*! @/common/emoji.js */ 41);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var chatMessage = function chatMessage() {return Promise.all(/*! import() | components/chat-message/chat-message */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/chat-message/chat-message")]).then(__webpack_require__.bind(null, /*! @/components/chat-message/chat-message.vue */ 158));};var uniPopup = function uniPopup() {return __webpack_require__.e(/*! import() | components/uni-popup/uni-popup */ "components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! @/components/uni-popup/uni-popup.vue */ 164));};var _default =
+var _emoji = __webpack_require__(/*! @/common/emoji.js */ 41);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var chatMessage = function chatMessage() {return Promise.all(/*! import() | components/chat-message/chat-message */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/chat-message/chat-message")]).then(__webpack_require__.bind(null, /*! @/components/chat-message/chat-message.vue */ 160));};var uniPopup = function uniPopup() {return __webpack_require__.e(/*! import() | components/uni-popup/uni-popup */ "components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! @/components/uni-popup/uni-popup.vue */ 166));};var _default =
 {
   components: {
     chatMessage: chatMessage, uniPopup: uniPopup },

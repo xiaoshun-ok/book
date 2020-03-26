@@ -460,7 +460,7 @@ __webpack_require__(/*! @/common/con_list.css */ 29);function _interopRequireDef
 //
 //
 //
-var conList = function conList() {return __webpack_require__.e(/*! import() | pages/con_list/con_list */ "pages/con_list/con_list").then(__webpack_require__.bind(null, /*! @/pages/con_list/con_list */ 153));};var _self,page = 1,timer = null;var _default = { mixins: [_bottomNav.default], components: { conList: conList }, data: function data() {return { title: 'Hello', current: 0, //隐藏和显示0印象2不隐藏
+var conList = function conList() {return __webpack_require__.e(/*! import() | pages/con_list/con_list */ "pages/con_list/con_list").then(__webpack_require__.bind(null, /*! @/pages/con_list/con_list */ 155));};var _self,page = 1,timer = null;var _default = { mixins: [_bottomNav.default], components: { conList: conList }, data: function data() {return { title: 'Hello', current: 0, //隐藏和显示0印象2不隐藏
       head: [{ name: "推荐" }, { name: "最新" }, { name: "最热" }], popup: 1, //前景功能1隐藏2不隐藏
       screen: 1, //1是隐藏2是不隐藏
       sex: 0, //0不限1男2女

@@ -27,7 +27,7 @@ var _store = _interopRequireDefault(__webpack_require__(/*! ./store */ 19));func
 _vue.default.config.productionTip = false;_App.default.mpType = 'app'; // APP时用别人的websocket
 //VUEX加载
 _vue.default.prototype.$store = _store.default; //自定义全局组件
-var faIcon = function faIcon() {return __webpack_require__.e(/*! import() | components/fa-icon/fa-icon */ "components/fa-icon/fa-icon").then(__webpack_require__.bind(null, /*! ./components/fa-icon/fa-icon.vue */ 139));};_vue.default.component('fa-icon', faIcon);var bottomNav = function bottomNav() {return __webpack_require__.e(/*! import() | components/botton-nav/botton-nav */ "components/botton-nav/botton-nav").then(__webpack_require__.bind(null, /*! ./components/botton-nav/botton-nav.vue */ 146));};
+var faIcon = function faIcon() {return __webpack_require__.e(/*! import() | components/fa-icon/fa-icon */ "components/fa-icon/fa-icon").then(__webpack_require__.bind(null, /*! ./components/fa-icon/fa-icon.vue */ 141));};_vue.default.component('fa-icon', faIcon);var bottomNav = function bottomNav() {return __webpack_require__.e(/*! import() | components/botton-nav/botton-nav */ "components/botton-nav/botton-nav").then(__webpack_require__.bind(null, /*! ./components/botton-nav/botton-nav.vue */ 148));};
 
 _vue.default.component('bottom-nav', bottomNav);
 
